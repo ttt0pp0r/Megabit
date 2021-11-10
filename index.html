@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="flexBar">
+        <div id="menuBar">
+          <a href="#">pineapple</a>
+          <a href="#">About</a>
+          <a href="#">How it works</a>
+          <a href="#">Contact</a>
+        </div>
+        <div id="subscription">
+          <h2 id="headerText">Subscribe to newsletter</h2>
+          <h3 id="extraText">
+            Subscribe to our newsletter and get a 10% discount on the pineapple
+            glasses.
+          </h3>
+        </div>
+        <div id="inputField">
+          <form id="extraLayer">
+            <input
+              type="text"
+              placeholder="Type your email address here..."
+              id="textInput"
+            />
+            <button
+              type="submit"
+              value="Login"
+              id="button"
+              onClick="login()"
+              disabled
+            >
+              <img src="https://i.ibb.co/w7fxNhK/ic-arrow.png" />
+            </button>
+          </form>
+          <div id="checkbox">
+            <input
+              type="checkbox"
+              id="checkBoxing"
+              class="checking"
+              onclick="checkinG()"
+            />
+            <p>
+              I agree to
+              <a href="#">terms and services</a>
+            </p>
+          </div>
+        </div>
+        <div id="social">
+          <a href="#" id="facebook"></a>
+          <a href="#" id="instagram"></a>
+          <a href="#" id="twitter"></a>
+          <a href="#" id="youtube"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
